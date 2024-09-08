@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4459FA08-62EA-4AE2-BDB8-B6827737B623}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Behavioral</RootNamespace>
+    <AssemblyName>Behavioral</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ChainOfResponsibility\AbstractHandler.cs" />
+    <Compile Include="ChainOfResponsibility\AnimalHandler.cs" />
+    <Compile Include="ChainOfResponsibility\Client.cs" />
+    <Compile Include="ChainOfResponsibility\Handler.cs" />
+    <Compile Include="Command\Commands.cs" />
+    <Compile Include="Command\ICommand.cs" />
+    <Compile Include="Command\Invoker.cs" />
+    <Compile Include="Command\Receiver.cs" />
+    <Compile Include="Command\StartPoint.cs" />
+    <Compile Include="Iterator\AlphabeticalOrderIterator.cs" />
+    <Compile Include="Iterator\Iterator.cs" />
+    <Compile Include="Iterator\IteratorAggregate.cs" />
+    <Compile Include="Iterator\StartPoint.cs" />
+    <Compile Include="Iterator\WordsCollection.cs" />
+    <Compile Include="Mediator\BaseComponent.cs" />
+    <Compile Include="Mediator\Components.cs" />
+    <Compile Include="Mediator\ConcreteMediator.cs" />
+    <Compile Include="Mediator\IMediator.cs" />
+    <Compile Include="Mediator\StartPoint.cs" />
+    <Compile Include="Memento\Caretaker.cs" />
+    <Compile Include="Memento\ConcreteMemento.cs" />
+    <Compile Include="Memento\IMemento.cs" />
+    <Compile Include="Memento\Originator.cs" />
+    <Compile Include="Memento\StartPoint.cs" />
+    <Compile Include="Observer\ConcreteObservers.cs" />
+    <Compile Include="Observer\IObserver.cs" />
+    <Compile Include="Observer\ISubject.cs" />
+    <Compile Include="Observer\StartPoint.cs" />
+    <Compile Include="Observer\Subject.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="State\ConcreteStates.cs" />
+    <Compile Include="State\Context.cs" />
+    <Compile Include="State\StartPoint.cs" />
+    <Compile Include="State\State.cs" />
+    <Compile Include="Strategy\ConcreteStrategy.cs" />
+    <Compile Include="Strategy\Context.cs" />
+    <Compile Include="Strategy\IStrategy.cs" />
+    <Compile Include="Strategy\StratPoint.cs" />
+    <Compile Include="Template\AbstractClass.cs" />
+    <Compile Include="Template\Client.cs" />
+    <Compile Include="Template\ConcreteClasses.cs" />
+    <Compile Include="Visitor\Client.cs" />
+    <Compile Include="Visitor\ConcreteComponents.cs" />
+    <Compile Include="Visitor\ConcreteVisitors.cs" />
+    <Compile Include="Visitor\IComponent.cs" />
+    <Compile Include="Visitor\IVisitor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
