@@ -1,0 +1,11 @@
+C:\Design-Patterns\Structural\bin\Debug\Structural.exe.config
+C:\Design-Patterns\Structural\bin\Debug\Structural.exe
+C:\Design-Patterns\Structural\bin\Debug\Structural.pdb
+C:\Design-Patterns\Structural\bin\Debug\Newtonsoft.Json.dll
+C:\Design-Patterns\Structural\bin\Debug\Newtonsoft.Json.xml
+C:\Design-Patterns\Structural\obj\Debug\Structural.csproj.AssemblyReference.cache
+C:\Design-Patterns\Structural\obj\Debug\Structural.csproj.SuggestedBindingRedirects.cache
+C:\Design-Patterns\Structural\obj\Debug\Structural.csproj.CoreCompileInputs.cache
+C:\Design-Patterns\Structural\obj\Debug\Structural.csproj.CopyComplete
+C:\Design-Patterns\Structural\obj\Debug\Structural.exe
+C:\Design-Patterns\Structural\obj\Debug\Structural.pdb
