@@ -1,0 +1,8 @@
+C:\Design-Patterns\Creational\bin\Debug\Creational.exe.config
+C:\Design-Patterns\Creational\bin\Debug\Creational.exe
+C:\Design-Patterns\Creational\bin\Debug\Creational.pdb
+C:\Design-Patterns\Creational\obj\Debug\Creational.csproj.AssemblyReference.cache
+C:\Design-Patterns\Creational\obj\Debug\Creational.csproj.SuggestedBindingRedirects.cache
+C:\Design-Patterns\Creational\obj\Debug\Creational.csproj.CoreCompileInputs.cache
+C:\Design-Patterns\Creational\obj\Debug\Creational.exe
+C:\Design-Patterns\Creational\obj\Debug\Creational.pdb
